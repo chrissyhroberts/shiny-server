@@ -1,5 +1,4 @@
 ---
-title: "Test pull ODK"
 author: "Chrissy h Roberts"
 date: "23/11/2018"
 output: html_document
@@ -10,11 +9,11 @@ runtime: shiny
 {
 library(leaflet)
 library(dplyr)
-Sys.setenv(TZ='GMT')
+#Sys.setenv(TZ='GMT')
 
-command<- paste('java -jar odkbriefcase_1.12.jar -url https://odktraining.odk.lshtm.ac.uk/odktraining/ -p lshtm -u admin -oc -id ISNTD -ed ./ISNTD -sd ./ISNTD -f ISNTD.csv')
-system(command)
-raw.data<-read.csv("ISNTD/ISNTD.csv")
+#command<- paste('java -jar odkbriefcase_1.12.jar -url https://odktraining.odk.lshtm.ac.uk/odktraining/ -p lshtm -u admin -oc -id ISNTD -ed ./ISNTD -sd ./ISNTD -f ISNTD.csv')
+#system(command)
+#raw.data<-read.csv("ISNTD/ISNTD.csv")
 
 
   
