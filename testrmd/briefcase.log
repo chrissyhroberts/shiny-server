@@ -1,0 +1,190 @@
+2018-11-23 12:21:04,494 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/formList
+2018-11-23 12:21:04,509 [main] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining/formList
+2018-11-23 12:21:04,647 [main] INFO  o.o.briefcase.util.AggregateUtils - Downloading URL https://odktraining.odk.lshtm.ac.uk/odktraining/formXml?formId=ISNTD into /var/folders/tl/t7vndg917ld__swns142v8n80000gn/T/briefcase_14621116283819053296_form.xml
+2018-11-23 12:21:04,647 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/formXml?formId=ISNTD
+2018-11-23 12:21:04,730 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 2.250 ms
+2018-11-23 12:21:04,732 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 1.721 ms
+2018-11-23 12:21:04,733 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:21:04,734 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:21:04,787 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 53.782 ms
+2018-11-23 12:21:04,794 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 1.133 ms
+2018-11-23 12:21:04,795 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 0.585 ms
+2018-11-23 12:21:04,795 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:21:04,795 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:21:04,799 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 3.590 ms
+2018-11-23 12:21:04,801 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/xformsManifest?formId=ISNTD
+2018-11-23 12:21:04,802 [main] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining/xformsManifest?formId=ISNTD
+2018-11-23 12:21:04,813 [main] INFO  o.o.briefcase.util.ServerFetcher - Downloading 2 media files.
+2018-11-23 12:21:04,814 [main] INFO  o.o.briefcase.util.AggregateUtils - Downloading URL https://odktraining.odk.lshtm.ac.uk/odktraining/xformsDownload?blobKey=aggregate.opendatakit.org%3AFormInfo%5B%40version%3D1+and+%40uiVersion%3D0%5D%2F_form_info%5B%40key%3Dmd5%3A472f7e4d6322543e73c169faeeedeb82%5D%2F_form_info_fileset%5B%40ordinal%3D1%5D%2FmanifestFileset%5B%40ordinal%3D1%5D&as_attachment=true into ./ISNTD/ODK Briefcase Storage/forms/ISNTD/ISNTD-media/a.jpg
+2018-11-23 12:21:04,814 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/xformsDownload?blobKey=aggregate.opendatakit.org%3AFormInfo%5B%40version%3D1+and+%40uiVersion%3D0%5D%2F_form_info%5B%40key%3Dmd5%3A472f7e4d6322543e73c169faeeedeb82%5D%2F_form_info_fileset%5B%40ordinal%3D1%5D%2FmanifestFileset%5B%40ordinal%3D1%5D&as_attachment=true
+2018-11-23 12:21:04,903 [main] INFO  o.o.briefcase.util.AggregateUtils - Downloading URL https://odktraining.odk.lshtm.ac.uk/odktraining/xformsDownload?blobKey=aggregate.opendatakit.org%3AFormInfo%5B%40version%3D1+and+%40uiVersion%3D0%5D%2F_form_info%5B%40key%3Dmd5%3A472f7e4d6322543e73c169faeeedeb82%5D%2F_form_info_fileset%5B%40ordinal%3D1%5D%2FmanifestFileset%5B%40ordinal%3D2%5D&as_attachment=true into ./ISNTD/ODK Briefcase Storage/forms/ISNTD/ISNTD-media/b.jpg
+2018-11-23 12:21:04,903 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/xformsDownload?blobKey=aggregate.opendatakit.org%3AFormInfo%5B%40version%3D1+and+%40uiVersion%3D0%5D%2F_form_info%5B%40key%3Dmd5%3A472f7e4d6322543e73c169faeeedeb82%5D%2F_form_info_fileset%5B%40ordinal%3D1%5D%2FmanifestFileset%5B%40ordinal%3D2%5D&as_attachment=true
+2018-11-23 12:21:04,941 [main] INFO  o.o.briefcase.util.FileSystemUtils - Creating database directory ./ISNTD/ODK Briefcase Storage/forms/ISNTD/info.hsqldb
+2018-11-23 12:21:05,290 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=&numEntries=100
+2018-11-23 12:21:05,292 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=&numEntries=100
+2018-11-23 12:21:05,318 [AWT-EventQueue-0] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 0.836 ms
+2018-11-23 12:21:05,319 [AWT-EventQueue-0] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 0.633 ms
+2018-11-23 12:21:05,320 [AWT-EventQueue-0] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:21:05,320 [AWT-EventQueue-0] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:21:05,325 [AWT-EventQueue-0] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 4.820 ms
+2018-11-23 12:21:05,327 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 1.133 ms
+2018-11-23 12:21:05,328 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 0.564 ms
+2018-11-23 12:21:05,329 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:21:05,330 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:21:05,335 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 5.756 ms
+2018-11-23 12:21:05,365 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Export has started
+2018-11-23 12:21:05,425 [main] INFO  o.o.b.export.ExportProcessTracker - Exported in 00:00:00.050520626
+2018-11-23 12:21:05,426 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Export has ended
+2018-11-23 12:21:05,427 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Exported 0 submissions
+2018-11-23 12:24:42,231 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/formList
+2018-11-23 12:24:42,246 [main] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining/formList
+2018-11-23 12:24:42,380 [main] INFO  o.o.briefcase.util.AggregateUtils - Downloading URL https://odktraining.odk.lshtm.ac.uk/odktraining/formXml?formId=ISNTD into /var/folders/tl/t7vndg917ld__swns142v8n80000gn/T/briefcase_9670482130552161343_form.xml
+2018-11-23 12:24:42,380 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/formXml?formId=ISNTD
+2018-11-23 12:24:42,440 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 1.942 ms
+2018-11-23 12:24:42,442 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 1.305 ms
+2018-11-23 12:24:42,442 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:24:42,443 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:24:42,494 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 51.188 ms
+2018-11-23 12:24:42,497 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 1.045 ms
+2018-11-23 12:24:42,498 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 0.638 ms
+2018-11-23 12:24:42,498 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:24:42,498 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:24:42,502 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 3.445 ms
+2018-11-23 12:24:42,503 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/xformsManifest?formId=ISNTD
+2018-11-23 12:24:42,503 [main] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining/xformsManifest?formId=ISNTD
+2018-11-23 12:24:42,518 [main] INFO  o.o.briefcase.util.ServerFetcher - Downloading 2 media files.
+2018-11-23 12:24:42,854 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=&numEntries=100
+2018-11-23 12:24:42,855 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=&numEntries=100
+2018-11-23 12:24:42,871 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=%3Ccursor+xmlns%3D%22http%3A%2F%2Fwww.opendatakit.org%2Fcursor%22%3E%3CattributeName%3E_LAST_UPDATE_DATE%3C%2FattributeName%3E%3CattributeValue%3E2018-11-23T12%3A24%3A27.020%2B0000%3C%2FattributeValue%3E%3CuriLastReturnedValue%3Euuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%3C%2FuriLastReturnedValue%3E%3CisForwardCursor%3Etrue%3C%2FisForwardCursor%3E%3C%2Fcursor%3E&numEntries=100
+2018-11-23 12:24:42,872 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=%3Ccursor+xmlns%3D%22http%3A%2F%2Fwww.opendatakit.org%2Fcursor%22%3E%3CattributeName%3E_LAST_UPDATE_DATE%3C%2FattributeName%3E%3CattributeValue%3E2018-11-23T12%3A24%3A27.020%2B0000%3C%2FattributeValue%3E%3CuriLastReturnedValue%3Euuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%3C%2FuriLastReturnedValue%3E%3CisForwardCursor%3Etrue%3C%2FisForwardCursor%3E%3C%2Fcursor%3E&numEntries=100
+2018-11-23 12:24:42,902 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining//view/downloadSubmission?formId=ISNTD%5B%40version%3Dnull+and+%40uiVersion%3Dnull%5D%2FISNTD%5B%40key%3Duuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%5D
+2018-11-23 12:24:42,902 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining//view/downloadSubmission?formId=ISNTD%5B%40version%3Dnull+and+%40uiVersion%3Dnull%5D%2FISNTD%5B%40key%3Duuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%5D
+2018-11-23 12:24:42,923 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.ServerFetcher - Fetched instanceID=uuid:8f86722d-2c4f-44db-b344-78940ea9cb42
+2018-11-23 12:24:42,923 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Downloading URL https://odktraining.odk.lshtm.ac.uk/odktraining/view/binaryData?blobKey=ISNTD%5B%40version%3Dnull+and+%40uiVersion%3Dnull%5D%2FISNTD%5B%40key%3Duuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%5D%2Fmy_signature%5B%40ordinal%3D1%5D&as_attachment=true into ./ISNTD/ODK Briefcase Storage/forms/ISNTD/instances/uuid8f86722d-2c4f-44db-b344-78940ea9cb42/1542975861194.jpg
+2018-11-23 12:24:42,924 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/view/binaryData?blobKey=ISNTD%5B%40version%3Dnull+and+%40uiVersion%3Dnull%5D%2FISNTD%5B%40key%3Duuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%5D%2Fmy_signature%5B%40ordinal%3D1%5D&as_attachment=true
+2018-11-23 12:24:42,978 [main] WARN  o.o.briefcase.util.FormCache - Can't read forms cache file
+java.io.EOFException: null
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3053)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1552)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+	at org.opendatakit.briefcase.util.FormCache.setLocation(FormCache.java:67)
+	at org.opendatakit.briefcase.util.FormCache.from(FormCache.java:55)
+	at org.opendatakit.briefcase.operations.Export.export(Export.java:84)
+	at org.opendatakit.briefcase.ui.BriefcaseCLI.run(BriefcaseCLI.java:311)
+	at org.opendatakit.briefcase.ui.BriefcaseCLI.runLegacyCli(BriefcaseCLI.java:141)
+	at org.opendatakit.briefcase.Launcher.lambda$main$0(Launcher.java:69)
+	at org.opendatakit.common.cli.Cli.lambda$run$5(Cli.java:136)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.opendatakit.common.cli.Cli.run(Cli.java:136)
+	at org.opendatakit.briefcase.Launcher.main(Launcher.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+2018-11-23 12:24:42,981 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 0.722 ms
+2018-11-23 12:24:42,982 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 0.626 ms
+2018-11-23 12:24:42,982 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:24:42,982 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:24:42,987 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 4.673 ms
+2018-11-23 12:24:43,007 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Export has started
+2018-11-23 12:24:43,065 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Exported 100% of the submissions
+2018-11-23 12:24:43,098 [main] INFO  o.o.b.export.ExportProcessTracker - Exported in 00:00:00.09190196
+2018-11-23 12:24:43,099 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Export has ended
+2018-11-23 12:24:43,100 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Exported 1 submission
+2018-11-23 12:25:02,574 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/formList
+2018-11-23 12:25:02,587 [main] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining/formList
+2018-11-23 12:25:02,719 [main] INFO  o.o.briefcase.util.AggregateUtils - Downloading URL https://odktraining.odk.lshtm.ac.uk/odktraining/formXml?formId=ISNTD into /var/folders/tl/t7vndg917ld__swns142v8n80000gn/T/briefcase_1823354298492826636_form.xml
+2018-11-23 12:25:02,719 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/formXml?formId=ISNTD
+2018-11-23 12:25:02,777 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 2.178 ms
+2018-11-23 12:25:02,779 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 1.273 ms
+2018-11-23 12:25:02,779 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:25:02,779 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:25:02,829 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 49.679 ms
+2018-11-23 12:25:02,832 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 1.366 ms
+2018-11-23 12:25:02,833 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 0.435 ms
+2018-11-23 12:25:02,833 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:25:02,833 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:25:02,837 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 3.672 ms
+2018-11-23 12:25:02,838 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/xformsManifest?formId=ISNTD
+2018-11-23 12:25:02,839 [main] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining/xformsManifest?formId=ISNTD
+2018-11-23 12:25:02,854 [main] INFO  o.o.briefcase.util.ServerFetcher - Downloading 2 media files.
+2018-11-23 12:25:03,187 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=&numEntries=100
+2018-11-23 12:25:03,188 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=&numEntries=100
+2018-11-23 12:25:03,202 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=%3Ccursor+xmlns%3D%22http%3A%2F%2Fwww.opendatakit.org%2Fcursor%22%3E%3CattributeName%3E_LAST_UPDATE_DATE%3C%2FattributeName%3E%3CattributeValue%3E2018-11-23T12%3A24%3A27.020%2B0000%3C%2FattributeValue%3E%3CuriLastReturnedValue%3Euuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%3C%2FuriLastReturnedValue%3E%3CisForwardCursor%3Etrue%3C%2FisForwardCursor%3E%3C%2Fcursor%3E&numEntries=100
+2018-11-23 12:25:03,203 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=%3Ccursor+xmlns%3D%22http%3A%2F%2Fwww.opendatakit.org%2Fcursor%22%3E%3CattributeName%3E_LAST_UPDATE_DATE%3C%2FattributeName%3E%3CattributeValue%3E2018-11-23T12%3A24%3A27.020%2B0000%3C%2FattributeValue%3E%3CuriLastReturnedValue%3Euuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%3C%2FuriLastReturnedValue%3E%3CisForwardCursor%3Etrue%3C%2FisForwardCursor%3E%3C%2Fcursor%3E&numEntries=100
+2018-11-23 12:25:03,230 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.ServerFetcher - already present - skipping fetch: uuid:8f86722d-2c4f-44db-b344-78940ea9cb42
+2018-11-23 12:25:03,246 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 0.617 ms
+2018-11-23 12:25:03,247 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 0.374 ms
+2018-11-23 12:25:03,247 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:25:03,247 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:25:03,251 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 3.217 ms
+2018-11-23 12:25:03,259 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Export has started
+2018-11-23 12:25:03,308 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Exported 100% of the submissions
+2018-11-23 12:25:03,335 [main] INFO  o.o.b.export.ExportProcessTracker - Exported in 00:00:00.075621736
+2018-11-23 12:25:03,335 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Export has ended
+2018-11-23 12:25:03,336 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Exported 1 submission
+2018-11-23 12:25:43,784 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/formList
+2018-11-23 12:25:43,796 [main] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining/formList
+2018-11-23 12:25:43,928 [main] INFO  o.o.briefcase.util.AggregateUtils - Downloading URL https://odktraining.odk.lshtm.ac.uk/odktraining/formXml?formId=ISNTD into /var/folders/tl/t7vndg917ld__swns142v8n80000gn/T/briefcase_4797063731755292334_form.xml
+2018-11-23 12:25:43,928 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/formXml?formId=ISNTD
+2018-11-23 12:25:43,986 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 1.822 ms
+2018-11-23 12:25:43,987 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 1.294 ms
+2018-11-23 12:25:43,987 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:25:43,988 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:25:44,057 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 69.867 ms
+2018-11-23 12:25:44,062 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 1.266 ms
+2018-11-23 12:25:44,062 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 0.576 ms
+2018-11-23 12:25:44,063 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:25:44,063 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:25:44,066 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 3.631 ms
+2018-11-23 12:25:44,068 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/xformsManifest?formId=ISNTD
+2018-11-23 12:25:44,068 [main] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining/xformsManifest?formId=ISNTD
+2018-11-23 12:25:44,081 [main] INFO  o.o.briefcase.util.ServerFetcher - Downloading 2 media files.
+2018-11-23 12:25:44,449 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=&numEntries=100
+2018-11-23 12:25:44,451 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=&numEntries=100
+2018-11-23 12:25:44,467 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=%3Ccursor+xmlns%3D%22http%3A%2F%2Fwww.opendatakit.org%2Fcursor%22%3E%3CattributeName%3E_LAST_UPDATE_DATE%3C%2FattributeName%3E%3CattributeValue%3E2018-11-23T12%3A24%3A27.020%2B0000%3C%2FattributeValue%3E%3CuriLastReturnedValue%3Euuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%3C%2FuriLastReturnedValue%3E%3CisForwardCursor%3Etrue%3C%2FisForwardCursor%3E%3C%2Fcursor%3E&numEntries=100
+2018-11-23 12:25:44,468 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=%3Ccursor+xmlns%3D%22http%3A%2F%2Fwww.opendatakit.org%2Fcursor%22%3E%3CattributeName%3E_LAST_UPDATE_DATE%3C%2FattributeName%3E%3CattributeValue%3E2018-11-23T12%3A24%3A27.020%2B0000%3C%2FattributeValue%3E%3CuriLastReturnedValue%3Euuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%3C%2FuriLastReturnedValue%3E%3CisForwardCursor%3Etrue%3C%2FisForwardCursor%3E%3C%2Fcursor%3E&numEntries=100
+2018-11-23 12:25:44,490 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.ServerFetcher - already present - skipping fetch: uuid:8f86722d-2c4f-44db-b344-78940ea9cb42
+2018-11-23 12:25:44,508 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 1.039 ms
+2018-11-23 12:25:44,509 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 0.713 ms
+2018-11-23 12:25:44,510 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:25:44,510 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:25:44,514 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 4.132 ms
+2018-11-23 12:25:44,528 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Export has started
+2018-11-23 12:25:44,585 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Exported 100% of the submissions
+2018-11-23 12:25:44,612 [main] INFO  o.o.b.export.ExportProcessTracker - Exported in 00:00:00.084947314
+2018-11-23 12:25:44,612 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Export has ended
+2018-11-23 12:25:44,613 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Exported 1 submission
+2018-11-23 12:26:14,676 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/formList
+2018-11-23 12:26:14,690 [main] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining/formList
+2018-11-23 12:26:14,822 [main] INFO  o.o.briefcase.util.AggregateUtils - Downloading URL https://odktraining.odk.lshtm.ac.uk/odktraining/formXml?formId=ISNTD into /var/folders/tl/t7vndg917ld__swns142v8n80000gn/T/briefcase_5135157523530465364_form.xml
+2018-11-23 12:26:14,823 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/formXml?formId=ISNTD
+2018-11-23 12:26:14,893 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 2.189 ms
+2018-11-23 12:26:14,894 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 1.396 ms
+2018-11-23 12:26:14,894 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:26:14,895 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:26:14,947 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 52.485 ms
+2018-11-23 12:26:14,950 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 1.101 ms
+2018-11-23 12:26:14,951 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 0.414 ms
+2018-11-23 12:26:14,951 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:26:14,951 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:26:14,954 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 2.972 ms
+2018-11-23 12:26:14,956 [main] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining/xformsManifest?formId=ISNTD
+2018-11-23 12:26:14,956 [main] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining/xformsManifest?formId=ISNTD
+2018-11-23 12:26:14,969 [main] INFO  o.o.briefcase.util.ServerFetcher - Downloading 2 media files.
+2018-11-23 12:26:15,324 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=&numEntries=100
+2018-11-23 12:26:15,326 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=&numEntries=100
+2018-11-23 12:26:15,341 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Parsing URL https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=%3Ccursor+xmlns%3D%22http%3A%2F%2Fwww.opendatakit.org%2Fcursor%22%3E%3CattributeName%3E_LAST_UPDATE_DATE%3C%2FattributeName%3E%3CattributeValue%3E2018-11-23T12%3A24%3A27.020%2B0000%3C%2FattributeValue%3E%3CuriLastReturnedValue%3Euuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%3C%2FuriLastReturnedValue%3E%3CisForwardCursor%3Etrue%3C%2FisForwardCursor%3E%3C%2Fcursor%3E&numEntries=100
+2018-11-23 12:26:15,342 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.AggregateUtils - Attempting URI https://odktraining.odk.lshtm.ac.uk/odktraining//view/submissionList?formId=ISNTD&cursor=%3Ccursor+xmlns%3D%22http%3A%2F%2Fwww.opendatakit.org%2Fcursor%22%3E%3CattributeName%3E_LAST_UPDATE_DATE%3C%2FattributeName%3E%3CattributeValue%3E2018-11-23T12%3A24%3A27.020%2B0000%3C%2FattributeValue%3E%3CuriLastReturnedValue%3Euuid%3A8f86722d-2c4f-44db-b344-78940ea9cb42%3C%2FuriLastReturnedValue%3E%3CisForwardCursor%3Etrue%3C%2FisForwardCursor%3E%3C%2Fcursor%3E&numEntries=100
+2018-11-23 12:26:15,368 [briefcase-pull-1-thread-1] INFO  o.o.briefcase.util.ServerFetcher - already present - skipping fetch: uuid:8f86722d-2c4f-44db-b344-78940ea9cb42
+2018-11-23 12:26:15,388 [main] INFO  org.javarosa.xform.parse.XFormParser - Reading XML and parsing with kXML2 finished in 0.787 ms
+2018-11-23 12:26:15,389 [main] INFO  org.javarosa.xform.parse.XFormParser - Consolidating text finished in 0.487 ms
+2018-11-23 12:26:15,389 [main] INFO  org.javarosa.xform.parse.XFormParser - Parsing form...
+2018-11-23 12:26:15,389 [main] INFO  org.javarosa.xform.parse.XFormParser - Title: "ISNTD"
+2018-11-23 12:26:15,394 [main] INFO  org.javarosa.xform.parse.XFormParser - Creating FormDef from parsed XML finished in 4.674 ms
+2018-11-23 12:26:15,403 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Export has started
+2018-11-23 12:26:15,456 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Exported 100% of the submissions
+2018-11-23 12:26:15,482 [main] INFO  o.o.b.export.ExportProcessTracker - Exported in 00:00:00.079717474
+2018-11-23 12:26:15,482 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Export has ended
+2018-11-23 12:26:15,483 [AWT-EventQueue-0] INFO  o.o.briefcase.operations.Export - Exported 1 submission
