@@ -13,7 +13,7 @@ library(dplyr)
 Sys.setenv(TZ='GMT')
 
 command<- paste('java -jar odkbriefcase_1.12.jar -url https://odktraining.odk.lshtm.ac.uk/odktraining/ -p lshtm -u admin -oc -id ISNTD -ed ./ISNTD -sd ./ISNTD -f ISNTD.csv')
-system(command)
+#system(command)
 plot(1:10,1:10)
 raw.data<-read.csv("ISNTD/ISNTD.csv")
 
@@ -24,13 +24,13 @@ raw.data<-read.csv("ISNTD/ISNTD.csv")
 
 
 ```{r}
-summary(raw.data)
+#summary(raw.data)
 ```
 
 ```{r}
 leaflet() %>%
-  setView(lng=174.764, lat=-36.877, zoom = 16) %>% 
+  setView(lng=0, lat=-0, zoom = 2) %>% 
   addTiles() %>%
-  addMarkers(lng=174.764, lat=-36.877, popup="Maunga Whau") 
+  addMarkers(lng=raw.data$location_birth.Longitude, lat=raw.data$location_birth.Latitude, popup=raw.data$first_name) 
 
 ```
