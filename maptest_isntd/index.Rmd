@@ -3,7 +3,7 @@ title: "Test pull ODK"
 author: "Chrissy h Roberts"
 date: "23/11/2018"
 output: html_document
-runtime: shiny
+#runtime: shiny
 ---
 
 ```{r setup, include=true}
