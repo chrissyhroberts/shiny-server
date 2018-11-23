@@ -3,11 +3,14 @@ title: "Test pull ODK"
 author: "Chrissy h Roberts"
 date: "23/11/2018"
 output: html_document
-#runtime: shiny
+runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
 {
+selectInput("n_breaks", label = "Number of bins:",
+              choices = c(10, 20, 35, 50), selected = 20)
+  
 Sys.setenv(TZ='GMT')
 
 command<- paste('java -jar odkbriefcase_1.12.jar -url https://odktraining.odk.lshtm.ac.uk/odktraining/ -p lshtm -u admin -oc -id ISNTD -ed ./ISNTD -sd ./ISNTD -f ISNTD.csv')
